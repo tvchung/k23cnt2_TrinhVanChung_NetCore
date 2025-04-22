@@ -1,0 +1,2 @@
+# k23cnt2_TrinhVanChung_NetCore
+k23cnt2_TrinhVanChung_NetCore
