@@ -14,9 +14,15 @@ Phát triển ứng dụng web với công nghệ .NET
 # Lesson02
 
 
+## ========================================================
 # Lesson03
-
+## Làm việc với View
+- Ngôn ngữ Razor
+- Sử dụng tag helper trên form
+- Component, layout, partialview
+## ========================================================
 # Lesson04
+
 
 # Lesson05
 
