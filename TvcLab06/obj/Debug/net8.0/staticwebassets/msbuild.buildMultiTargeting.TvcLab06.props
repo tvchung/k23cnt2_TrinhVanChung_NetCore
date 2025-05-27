@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TvcLab06.props" />
+</Project>
