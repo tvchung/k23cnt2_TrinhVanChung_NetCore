@@ -1,4 +1,4 @@
-# K23CNT1 - TRỊNH VĂN CHUNG - NETCORE (8.X)
+# K23CNT2 - TRỊNH VĂN CHUNG - NETCORE (8.X)
 Phát triển ứng dụng web với công nghệ .NET
 # NỘI DUNG HỌC PHẦN
 ## ========================================================
@@ -30,6 +30,7 @@ Phát triển ứng dụng web với công nghệ .NET
 # Lesson06
 
 # Lesson07
+## Làm việc với Model / Scaffoding
 
 # Lesson08
 
