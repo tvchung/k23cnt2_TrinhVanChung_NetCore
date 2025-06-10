@@ -1,0 +1,89 @@
+﻿@model IEnumerable<TvcLesson08Annotation.Models.TvcAccount>
+
+@{
+    ViewData["Title"] = "TvcIndex";
+}
+
+<h1>TvcIndex</h1>
+
+<p>
+    <a asp-action="TvcCreate" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcAvatar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcBirthday)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcFacebook)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcAvatar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcBirthday)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TvcFacebook)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
